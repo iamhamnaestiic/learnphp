@@ -1,3 +1,3 @@
 <?php
-$name = "Zakiullah Kaifi";
+$name = "Hamna Kaifi";
 echo $name;
