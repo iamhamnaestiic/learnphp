@@ -17,10 +17,12 @@ $users = array(
 <html lang="en">
 <head>
     <meta charset="UTF - 8">
-    <title>PHP Example</title>s
+    <title>PHP Example</title>
 </head>
 <body>
 <h1>Welcome to My PHP Page</h1>
+
+<?php include "includes/partials/nav.php"; ?>
 
 <b>Name:</b><span> <?php echo $name ?></span><br>
 <b>Age:</b><span> <?php echo $age ?></span><br>
